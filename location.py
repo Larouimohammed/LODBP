@@ -43,7 +43,7 @@ m.save('templates/map.html')
 app = Flask(__name__)
 @app.route('/')
 def onclick():
- return render_template("button.html")
+ return render_template("frontend.html")
 
 @app.route('/maplocation')
 def maplocation():
